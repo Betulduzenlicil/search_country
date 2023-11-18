@@ -1,0 +1,37 @@
+body{
+    background-image: url(./img/map-2153535_640.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+   
+}
+
+.container{
+    background-color: rgba(250, 235, 215, 0.525);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    min-width: 200px;
+}
+
+button{
+    margin: auto;
+    padding: .5rem;
+}
+
+h1{
+    color: rgb(225, 33, 33);
+}
+
+.text{
+    background-color: rgb(154, 159, 159);
+    margin: 0;
+    /* padding: 0 3rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
